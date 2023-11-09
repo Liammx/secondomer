@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+.conteiner{
+    border: 5px solid #ccc;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.content{
+    border: 1px solid transparent;
+    width: 900px;
+    height: 350px;
+    display: flex;
+    position: relative;
+}
+.min{
+    border: 5px solid #ccc;
+    width: 900px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.min h1{
+    color: #ccc;
+    font-size: 168px;
+}
+.start{
+    border: 5px solid black;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: green;
+    border-radius: 50px;
+}
+.button1{
+    border: 5px solid #000;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    color: #ccc;
+    font-size: 16px;
+    background-color: green;
+    cursor: pointer;
+}
+.stop{
+    border: 5px solid #000;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 50px;
+}
+.button2{
+    border: 5px solid #000;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    color: #ccc;
+    font-size: 16px;
+    background-color: red;
+    cursor: pointer;
+}
+.concern{
+    border: 5px solid #000;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: yellow;
+    border-radius: 50px;
+}
+.button3{
+        border: 5px solid #000;
+        border-radius: 50px;
+        width: 150px;
+        height: 50px;
+        color: #000;
+        font-size: 16px;
+        background-color: yellow;
+        cursor: pointer;
+}
