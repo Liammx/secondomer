@@ -30,4 +30,9 @@ stop.addEventListener('click', () =>{
     clearInterval(interval)
 })
 concern.addEventListener('click', () =>{
+    clearInterval(interval)
+    m = 0
+    s = 0
+    minute.innerHTML = '00'
+    second.innerHTML ='00' 
 })
