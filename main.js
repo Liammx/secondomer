@@ -1,6 +1,6 @@
 let start = document.querySelector('.button1')
 let stop = document.querySelector('.button2')
-let concern = document.querySelector('.button3')
+let cancel = document.querySelector('.button3')
 let minute = document.querySelector('.minute')
 let second = document.querySelector('.second')
 
@@ -16,20 +16,20 @@ start.addEventListener('click' , () =>{
         } else{
             second.innerHTML = s
         }
-
+        console.log(start)
         if(s == 60) {
             m++
             minute.innerHTML = m
             s = 0 
             second.innerHTML = s
         }
-    }, 100)
+    }, 1000)
 } )
 
 stop.addEventListener('click', () =>{
     clearInterval(interval)
 })
-concern.addEventListener('click', () =>{
+cancel.addEventListener('click', () =>{
     clearInterval(interval)
     m = 0
     s = 0
